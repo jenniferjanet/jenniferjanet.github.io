@@ -2,7 +2,10 @@ body {
 	background-color: black;
 }
 h1  {
-colo: rgb (0, 100, 255);
+color: rgb (0, 100, 255);
 
+}
+p {
 
+	color:rgb(8,100,55);
 }
