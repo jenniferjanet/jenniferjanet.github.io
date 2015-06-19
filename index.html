@@ -1,6 +1,14 @@
 <!DOCTYPE html >
 	<head>
+
 <link rel= "stylesheet" type= "text/css" href="estilo.css">
+
+        		<script src="processing.js" type="text/javascript"></script>
+		<script type="text/javascript">
+		    // convenience function to get the id attribute of generated sketch html element
+		    function getProcessingSketchId() { return 'MixtureGrid'; }
+</script>
+
 	</head>
 	<body>
 
@@ -21,7 +29,17 @@
 	<li> <img src = "imagen/large.jpg" /> </li>
 	<li>muchas imagenes</li>
 </ul>
-
+        	<div>
+				<canvas id="MixtureGrid" data-processing-sources="MixtureGrid.pde" 
+						width="640" height="360">
+					<p>Your browser does not support the canvas tag.</p>
+					<!-- Note: you can put any alternative content here. -->
+				</canvas>
+				<noscript>
+					<p>JavaScript is required to view the contents of this page.</p>
+				</noscript>
+	    	
+            </div>
 	</body>
 
 </html>
