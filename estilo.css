@@ -3,15 +3,14 @@ body {
 }
 h1  {
 color: rgb (225, 225, 225);
+text-align:center;
 
 }
 p {
 
-	color:rgb(8,100,55);
-}
- h1 {
- 	text-aling:center;
- }
+	color:rgb(225,225,225);
+    text-aling:center;
+
  img{
 
  	width: 2000px;
